@@ -1,0 +1,9 @@
+---
+# it start 
+- 
+  hosts: web
+  tasks: 
+    - name: install package 
+      yum: 
+        name: https
+        state: latest 
